@@ -18,4 +18,5 @@ const quickSort = (arr)=>{
 
 let arr = [2,5,7,3,6,4];
 console.log(arr);
-console.log(quickSort(arr));
+console.log(quickSort(arr, 4));
+
