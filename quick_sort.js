@@ -16,7 +16,15 @@ const quickSort = (arr)=>{
     return quickSort(leftSide).concat(pivot, quickSort(rightSide));
 }
 
-let arr = [2,5,7,3,6,4];
-console.log(arr);
-console.log(quickSort(arr, 4));
+// Test 1
+let arr1 = [2,5,7,3,6,4];
+console.log(quickSort(arr1));
+
+// Test 2 
+let arr2 = [4,8,2,7,3,7,9];
+console.log(quickSort(arr2));
+
+// Test 3 
+let arr3 = [8,5,2,9,8,4,2,7,1,9];
+console.log(quickSort(arr3))
 
